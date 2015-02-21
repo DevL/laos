@@ -1,0 +1,3 @@
+<div class="jumbotron">
+  <h2><%= leap_year_text @year, @leap_year %></h2>
+</div>
