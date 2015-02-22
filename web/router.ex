@@ -15,6 +15,7 @@ defmodule Yearly.Router do
   scope "/", Yearly do
     pipe_through :browser # Use the default browser stack
 
+    get "/", LeapYearController, :index
     get "/leap/", LeapYearController, :index
     get "/leap/:year", LeapYearController, :show
   end

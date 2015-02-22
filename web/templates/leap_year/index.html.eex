@@ -1,3 +1,9 @@
 <div class="jumbotron">
   <h2>No year specified.</h2>
+  <p>
+    To check if a given year is a leap year, use a URL like this:
+    <a href="<%= base_url @conn %>leap/2015">
+      <%= base_url @conn %>leap/2015
+    </a>
+  </p>
 </div>

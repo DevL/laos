@@ -4,7 +4,7 @@ defmodule Yearly.LeapYearController do
   plug :action
 
   def index(conn, _params) do
-    render conn, :index
+    render conn, :index, conn: conn
   end
 
   def show(conn, %{"year" => year}) do
