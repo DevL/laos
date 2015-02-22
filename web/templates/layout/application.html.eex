@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Hello Phoenix!</title>
+    <title>Yearly - Leap years as an online service!</title>
     <link rel="stylesheet" href="/css/phoenix.css">
   </head>
 
@@ -26,6 +26,6 @@
         <p><a href="http://phoenixframework.org">phoenixframework.org</a></p>
       </div>
 
-    </div> <!-- /container -->
+    </div>
   </body>
 </html>
