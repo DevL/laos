@@ -1,9 +1,9 @@
-defmodule Laos.Mixfile do
+defmodule Yearly.Mixfile do
   use Mix.Project
 
   def project do
     [
-      app: :laos,
+      app: :yearly,
       version: "1.0.0",
       elixir: "~> 1.0",
       elixirc_paths: ["lib", "web"],
@@ -17,7 +17,7 @@ defmodule Laos.Mixfile do
   # Type `mix help compile.app` for more information
   def application do
     [
-      mod: {Laos, []},
+      mod: {Yearly, []},
       applications: [:phoenix, :cowboy, :logger]
     ]
   end

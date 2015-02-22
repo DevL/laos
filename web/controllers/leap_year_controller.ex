@@ -1,4 +1,4 @@
-defmodule Laos.LeapYearController do
+defmodule Yearly.LeapYearController do
   use Phoenix.Controller
 
   plug :action

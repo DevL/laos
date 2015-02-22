@@ -1,9 +1,9 @@
-defmodule Laos.Endpoint do
-  use Phoenix.Endpoint, otp_app: :laos
+defmodule Yearly.Endpoint do
+  use Phoenix.Endpoint, otp_app: :yearly
 
   # Serve at "/" the given assets from "priv/static" directory
   plug Plug.Static,
-    at: "/", from: :laos,
+    at: "/", from: :yearly,
     only: ~w(css images js favicon.ico robots.txt)
 
   plug Plug.Logger
@@ -22,9 +22,9 @@ defmodule Laos.Endpoint do
 
   plug Plug.Session,
     store: :cookie,
-    key: "_laos_key",
+    key: "_yearly_key",
     signing_salt: "+SEHL5VX",
     encryption_salt: "uiNn+qXW"
 
-  plug :router, Laos.Router
+  plug :router, Yearly.Router
 end

@@ -1,16 +1,16 @@
 use Mix.Config
 
-config :laos, Laos.Endpoint,
+config :yearly, Yearly.Endpoint,
   url: [host: "example.com"],
   http: [port: System.get_env("PORT")],
   secret_key_base: "pMwbUPtxE4eMIwEXxJdNsKXoNsLFD8N1A5FIkZWtOW5mabaGCdK1vg0U2uOqpnsP"
-  
+
 # ## SSL Support
 #
 # To get SSL working, you will need to add the `https` key
 # to the previous section:
 #
-#  config:laos, Laos.Endpoint,
+#  config:yearly, Yearly.Endpoint,
 #    ...
 #    https: [port: 443,
 #            keyfile: System.get_env("SOME_APP_SSL_KEY_PATH"),
@@ -18,7 +18,7 @@ config :laos, Laos.Endpoint,
 #
 # Where those two env variables point to a file on
 # disk for the key and cert.
-  
+
 
 # Do not pring debug messages in production
 config :logger, level: :info
@@ -33,5 +33,5 @@ config :logger, level: :info
 # Alternatively, you can configure exactly which server to
 # start per endpoint:
 #
-#     config :laos, Laos.Endpoint, server: true
+#     config :yearly, Yearly.Endpoint, server: true
 #

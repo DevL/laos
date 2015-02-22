@@ -1,4 +1,4 @@
-defmodule Laos.View do
+defmodule Yearly.View do
   use Phoenix.View, root: "web/templates"
 
   # The quoted expression returned by this block is applied
@@ -6,7 +6,7 @@ defmodule Laos.View do
   using do
     quote do
       # Import common functionality
-      import Laos.Router.Helpers
+      import Yearly.Router.Helpers
 
       # Use Phoenix.HTML to import all HTML functions (forms, tags, etc)
       use Phoenix.HTML

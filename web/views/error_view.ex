@@ -1,5 +1,5 @@
-defmodule Laos.ErrorView do
-  use Laos.View
+defmodule Yearly.ErrorView do
+  use Yearly.View
 
   def render("404.html", _assigns) do
     "Page not found - 404"

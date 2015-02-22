@@ -1,3 +1,3 @@
-defmodule Laos.LayoutView do
-  use Laos.View
+defmodule Yearly.LayoutView do
+  use Yearly.View
 end

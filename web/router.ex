@@ -1,4 +1,4 @@
-defmodule Laos.Router do
+defmodule Yearly.Router do
   use Phoenix.Router
 
   pipeline :browser do
@@ -12,7 +12,7 @@ defmodule Laos.Router do
     plug :accepts, ~w(json)
   end
 
-  scope "/", Laos do
+  scope "/", Yearly do
     pipe_through :browser # Use the default browser stack
 
     get "/leap/", LeapYearController, :index
@@ -20,7 +20,7 @@ defmodule Laos.Router do
   end
 
   # Other scopes may use custom stacks.
-  # scope "/api", Laos do
+  # scope "/api", Yearly do
   #   pipe_through :api
   # end
 end

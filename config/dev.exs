@@ -1,6 +1,6 @@
 use Mix.Config
 
-config :laos, Laos.Endpoint,
+config :yearly, Yearly.Endpoint,
   http: [port: System.get_env("PORT") || 4000],
   debug_errors: true,
   cache_static_lookup: false

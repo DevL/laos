@@ -1,4 +1,4 @@
-# Laos
+# Yearly
 
 To start your new Phoenix application:
 

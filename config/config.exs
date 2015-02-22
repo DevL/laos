@@ -6,7 +6,7 @@
 use Mix.Config
 
 # Configures the endpoint
-config :laos, Laos.Endpoint,
+config :yearly, Yearly.Endpoint,
   url: [host: "localhost"],
   secret_key_base: "pMwbUPtxE4eMIwEXxJdNsKXoNsLFD8N1A5FIkZWtOW5mabaGCdK1vg0U2uOqpnsP",
   debug_errors: false,
